@@ -1,14 +1,15 @@
 ---
 layout: blog
-title: Computers
-location: "~/itrussell/computers"
+title: Data 
+topic_name: Data 
+location: "~/itrussell/data"
 ---
 
-<p>A spot for all things computer related; computer science to power using.</p>
+<p>Some of my personal takes on topics in data science and analysis.</p>
 
 <div class="divider"></div>
   {% for post in site.posts %}
-  {% if post.category == 'computers' %}
+  {% if post.category == 'data' %}
     <h2><a class="blue" href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
   {% endif %}

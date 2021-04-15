@@ -1,0 +1,16 @@
+---
+layout: blog
+title: Computers
+topic_name: "01000110"
+location: "~/itrussell/computers"
+---
+
+<p>A spot for all things computer related; computer science to power using.</p>
+
+<div class="divider"></div>
+  {% for post in site.posts %}
+  {% if post.category == 'computers' %}
+    <h2><a class="blue" href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+  {% endif %}
+  {% endfor %}
