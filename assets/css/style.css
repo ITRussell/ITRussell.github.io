@@ -252,4 +252,11 @@ div.topic-card a:hover {
     color: black;
     background-color: #66D9EF;
   }
+  .navbar a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+  }
 }
