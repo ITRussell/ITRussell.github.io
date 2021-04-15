@@ -26,7 +26,7 @@ a:hover {
   padding: 1em;
   border-radius: 0 50px 50px 50px;
 }
-.post_style p, h1, h2, h3, h4, h5 {
+.post_style p, .post_style h1, .post_style h2, .post_style h3, .post_style h4, .post_style h5 {
   color: black;
   line-height: 2em;
 }
@@ -151,11 +151,11 @@ div.topic-card a:hover {
 }
 .business-card-left {
   grid-area: business-card-left;
-  font-size: 18px;
+  font-size: 18.5px;
 }
 .business-card-right {
   grid-area: business-card-right;
-  font-size: 18px;
+  font-size: 18.5px;
 }
 .main, .topics {
   padding: 0 23% 0 23%;
