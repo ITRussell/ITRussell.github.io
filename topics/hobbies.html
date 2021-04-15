@@ -1,15 +1,15 @@
 ---
 layout: blog
-title: Cars 
-topic_name: Cars 
-location: "~/itrussell/cars"
+title: Hobbies 
+topic_name: Hobbies 
+location: "~/itrussell/hobbies"
 ---
 
-<p>I've got a mint '97 Miata that's become a bit of project car, why not write about it?</p>
+<p>Sometimes I like to do other stuff too...</p>
 
 <div class="divider"></div>
   {% for post in site.posts %}
-  {% if post.category == 'cars' %}
+  {% if post.category == 'hobbies' %}
     <h2><a class="blue" href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
   {% endif %}
