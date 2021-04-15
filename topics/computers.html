@@ -11,7 +11,7 @@ location: "~/itrussell/computers"
   {% for post in site.posts %}
   {% if post.category == 'computers' %}
     <h2><a class="blue" href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
-    <a class="red" href="{{ post.url }}">Read On...</a>
+    {{ post.excerpt | truncate: 300 }}
+    <a class="red" href="{{ post.url }}">Read On</a>
   {% endif %}
   {% endfor %}
