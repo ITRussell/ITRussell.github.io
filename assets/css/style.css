@@ -222,3 +222,34 @@ div.topic-card a:hover {
     padding: 0 10% 0 10%;
   }
 }
+
+@media screen and (max-width: 650px) {
+.cards {
+    display: block;
+    margin: 0;
+  }
+  .topics-greeting {
+    margin-bottom: 1em;
+  }
+  .business-card-left {
+    margin-bottom: -1em;
+  }
+  .headline {
+    text-align: left;
+  }
+  .nametag {
+    text-align: center;
+  }
+.topic-card {
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 92%;
+    margin: 1em;
+    color: black;
+    background-color: #66D9EF;
+  }
+}
