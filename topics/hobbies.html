@@ -12,6 +12,6 @@ location: "~/itrussell/hobbies"
   {% if post.category == 'hobbies' %}
     <h2><a class="blue" href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt | truncate: 300 }}
-    <a class="red" href="{{ post.url }}">Read On</a>
+    <p></p><a class="red" href="{{ post.url }}">Read On</a></p>
   {% endif %}
   {% endfor %}
