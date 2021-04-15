@@ -1,0 +1,64 @@
+{% include head.html %}
+{% include location.html %}
+<div class="headline">
+  <div class="photo-holder">
+  </div>
+  <div class="nametag">
+    <h1> Ian T. Russell {{ page.my_number }} </h1>
+  </div>
+
+  <div class="business-card-left">
+    <p class="orange"><i class="fas fa-location-arrow"></i><a class="orange"
+        href="https://goo.gl/maps/Z32Zv6tD1JVqo4vP9">Newport,
+        RI</a></p>
+    <p class="purple"><i class="fas fa-chart-pie"></i><a class="purple"
+        href="https://www.datapine.com/blog/data-analysis-methods-and-techniques/">Data Analysis</a></p>
+  </div>
+  <div class="business-card-right">
+    <p class="red"><i class="fas fa-envelope-square"></i><a class="red"
+        href="mailto:ian@itrussell.com">ian@itrussell.com</a></p>
+    <p class="blue"><i class="fas fa-code-branch"></i><a class="blue"
+        href="https://www.github.com/itrussell">github.com/itrussell</a></p>
+  </div>
+</div>
+<div class="main">
+  <h2 class="greeting">Hello, World!</h2>
+  <p>Welcome to my website! Don't expect to find anything too fancy here, the web is too bloated these days
+    anyways...
+    This is more like an online business card. You can find some basic facts about me; much faster than a
+    résumé.
+  </p>
+  <p>
+    I also maintain a <a class="blue" href="#blog">blog</a>
+    where I tend to just write about whatever is I've been thinking about lately. I
+    love
+    speding
+    a free weekend down a rabbit hole or two.
+    If you simply want to contact me, well, you're in luck.
+  <p> Just click <a class="red" href="mailto:ian@itrussell.com">here</a></p>
+  </p>
+  <p class="signature">
+    <i>// Ian T. Russell</i>
+  </p>
+  <div class="divider"></div>
+</div>
+<section class="topics" id="blog">
+  <h2 class="topics-greeting">Topics</h2>
+  <div class="cards">
+    <div class="topic-card">
+      <h3>Computers</h3>
+    </div>
+    <div class="topic-card">
+      <h3>Data</h3>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="topic-card">
+      <h3>Projects</h3>
+    </div>
+    <div class="topic-card">
+      <h3>Cars</h3>
+    </div>
+  </div>
+</section>
+{% include nav.html %}
