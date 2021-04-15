@@ -255,8 +255,11 @@ div.topic-card a:hover {
   .navbar a {
     display: inline-block;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     text-decoration: none;
     font-size: 14px;
+  }
+  .fa-code-branch {
+    margin-right: 15px;
   }
 }
