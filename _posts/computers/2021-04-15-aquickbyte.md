@@ -2,6 +2,7 @@
 layout: post
 category: computers
 location: "~/itrussell/computers"
+snippet: My appreciation for Python whitespace.
 title: A Quick Byte
 ---
 This is going to be a little bit of a short post. A thought occurred to me recently when shifting to a little more programming in C++, that my coding style was very natural and automatically very clean and organized. I never actually studied any sort of coding style, and in fact, when I started off learning Java, I had all sorts of strange indentation and spacing habits. Fortunately, I didn't get stuck in the masochist world of Java  for too long and quickly learned to enjoy Python much, much, more. Of course, Python is an easier language (on the surface), but I didn't truly enjoy programming until learning it.  The syntax of Python and the freedom of expression it provides truly disintegrated the boundary between solving a problem and just trying to get something to compile (A whole other post could be written about just this). I mean, honestly, there have been times when I could literally guess at an expression in Python and have it work out. But the language did have one important component that was much stricter than the rest of its rules. Indentation. 

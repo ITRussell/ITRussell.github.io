@@ -11,7 +11,7 @@ location: "~/itrussell/hobbies"
   {% for post in site.posts %}
   {% if post.category == 'hobbies' %}
     <h2><a class="blue" href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt | truncate: 300 }}
-    <p></p><a class="red" href="{{ post.url }}">Read On</a></p>
-  {% endif %}
+  <p>{{ post.snippet }}</p>
+    <p class="red">{{ post.date | date: "%a, %b %d, %Y" }}</p>
+ {% endif %}
   {% endfor %}

@@ -11,7 +11,7 @@ location: "~/itrussell/data"
   {% for post in site.posts %}
   {% if post.category == 'data' %}
     <h2><a class="blue" href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt | truncate: 300 }}
-    <a class="red" href="{{ post.url }}">Read On</a>
-  {% endif %}
+  <p>{{ post.snippet }}</p>
+    <p class="red">{{ post.date | date: "%a, %b %d, %Y" }}</p>
+ {% endif %}
   {% endfor %}

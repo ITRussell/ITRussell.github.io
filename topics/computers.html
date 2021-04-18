@@ -10,8 +10,9 @@ location: "~/itrussell/computers"
 <div class="divider"></div>
   {% for post in site.posts %}
   {% if post.category == 'computers' %}
-    <h2><a class="blue" href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt | truncate: 300 }}
-    <a class="red" href="{{ post.url }}">Read On</a>
+    <h2 class="post-holder"><a class="blue" href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.snippet }}</p>
+    <p class="red">{{ post.date | date: "%a, %b %d, %Y" }}</p>
   {% endif %}
   {% endfor %}
+
