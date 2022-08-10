@@ -17,9 +17,12 @@
     into future systems and DevSecOps pipelines.
     
     <ul class="resume-item-list">
-      <li>A project you are proud of</li>
-      <li>Another awesome project</li>
-      <li>or a team or department you worked with</li>
+      <li>Authored multiple whitepapers to propose new system security architecture including public key infrastructure design, certificate authority design, multi-factor authentication system design, and situational awareness/incident response procedures</li>
+      <li>Led a security architecture working group in order to develop public key infrastructure and digital certificate system requirements</li>
+      <li>Developed a revised system of systems security baseline requirements document in order to establish new and attainable system of systems security requirements</li>
+      <li>Worked with subsystem representatives to bolster an improved requirements verification, validation, and traceability effort designed to ensure security requirements are met by federated subsystems</li>    
+      <li>Developed initial test procedures for system of systems network monitoring tools (Navy proprietary)</li>
+      <li>Conducted risk assessments (NIST 800-31) for various issues including external data connections and non-volatile memory device handling procedures</li>
     </ul>
 
     <h4 class="resume-item-details" itemprop="description">Security Researcher &bull; Jun, 2021 — Present</h4>
@@ -28,9 +31,8 @@
     technologies for incorporation into future systems and DevSecOps pipelines. 
 
     <ul class="resume-item-list">
-      <li>A project you are proud of</li>
-      <li>Another awesome project</li>
-      <li>or a team or department you worked with</li>
+      <li>Identified and tested multiple binary, firmware, kernel, and source code debloat tools for use in future DevSecOps pipelines</li>
+      <li>Developed a simple user web interface for the debloat tools using Python and the Flask framework that increased debloat tool usability and decreased workflow time by 50%</li>
     </ul>
 
     <h4 class="resume-item-details" itemprop="description">Data Analyst &bull; Dec, 2020 — Jun, 2021</h4>
@@ -40,6 +42,12 @@
     reports to better improve corporate processes and provide valuable insight to 
     leadership. I also prepared recommendations for implementation of new systems and 
     procedures.
+
+     <ul class="resume-item-list">
+      <li>Converted several legacy PDF forms to Confluence webpages for easier ingestion of user input data and simpler processes for data harvesting</li>
+      <li>Created visualizations and dashboards for form data to demonstrate the utility of digitization for business operations using Tableau and Python</li>
+    </ul>
+
 
 # TrueCommerce
 - company: TrueCommerce
@@ -51,9 +59,14 @@
     to clients concerning EDI guidelines and capabilities as well as created 
     relevant data mapping documents. Collaboration with programmers and internal 
     staff to develop and test new or modified systems was critical to accomplishing 
-    tasks efficiently and with less proneness to error.If your stint was shorter, 
-    feel free to be brief and just call out the most meaningful points of your role. 
-    Be concise, and be meaninful. The person reading just needs enough to want to 
-    talk to you more about your experience.
+    tasks efficiently and with less proneness to error.
+    
+    <ul class="resume-item-list">
+      <li>Analyzed and defined EDI requirements for clients, especially for non-standard needs and circumstances</li>
+      <li>Provided advice and education to clients concerning EDI guidelines and capabilities</li>
+      <li>Created data mapping documents for integration between supply chain components</li>
+      <li>Collaborated with programmers and internal staff to develop and test new or modified systems</li>
+      <li>Developed and maintained communication links with trading partners</li>
+    </ul>
 
 
